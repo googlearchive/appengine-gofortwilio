@@ -64,7 +64,7 @@ func Repeat(tw twilio.Context) {
 		return
 	}
 	c.Debugf("LastFortune(%q): %v", from, lf)
-	tw.Response(lf.Twiml)
+	tw.Response(string(lf.Twiml))
 }
 
 func init() {

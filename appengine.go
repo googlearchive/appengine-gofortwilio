@@ -43,8 +43,8 @@ var fts = map[string]Fortwilio{
 }
 
 type LastFortune struct {
-	Number string
-	Twiml  string
+	Number string `datastore:",noindex"`
+	Twiml  []byte `datastore:",noindex"`
 }
 
 func (ft Fortwilio) Handle(tw twilio.Context) {
@@ -54,7 +54,7 @@ func (ft Fortwilio) Handle(tw twilio.Context) {
 	tw.Response(twiml)
 	lf := &LastFortune{
 		tw.Value("To"),
-		twiml,
+		[]byte(twiml),
 	}
 	if _, err := datastore.Put(c, datastore.NewKey(c, "LastFortune", tw.Value("From"), 0, nil), lf); err != nil {
 		c.Errorf("error recording last fortune for %q: %v", tw.Value("From"), err)
