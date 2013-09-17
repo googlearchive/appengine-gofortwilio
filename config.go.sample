@@ -1,0 +1,8 @@
+package fortwilio
+
+const (
+	accountSid = "<YOUR_SID>"
+	authToken =  "<YOUR_AUTH_TOKEN>"
+	callsApiUrl = "https://api.twilio.com/2010-04-01/Accounts/<YOUR_SID>/Calls"
+	repeatUrl = "https://<YOUR_APP_ID>.appspot.com/repeat"
+)
