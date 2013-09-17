@@ -8,11 +8,11 @@ send SMS and emit phone calls.
 It is heavily inspired from [github.com/nf/piphone][4].
 
 ## Demo
-Call (415) 202-5553, get a fortune cookie
-Call (415) 202-5554, get a BOFH excuse
-Call (415) 202-5556, get a Startrek quote
-Call (415) 202-5557, get a French proverb
-Call (952) 314-1592, get π (andrew demo)
+- Call (415) 202-5553, get a fortune cookie
+- Call (415) 202-5554, get a BOFH excuse
+- Call (415) 202-5556, get a Startrek quote
+- Call (415) 202-5557, get a French proverb
+- Call (952) 314-1592, get π (andrew demo)
 
 ## APIs
 - [App Engine Go Runtime][1]
