@@ -13,7 +13,7 @@ import (
 	"appengine/datastore"
 	"appengine/urlfetch"
 
-	"github.com/proppy/twilio"
+	"github.com/nf/twilio"
 )
 
 func Reshare(tw twilio.Context) {
