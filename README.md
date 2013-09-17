@@ -12,7 +12,6 @@ It is heavily inspired from [github.com/nf/piphone][4].
 - Call (415) 202-5554, get a BOFH excuse
 - Call (415) 202-5556, get a Startrek quote
 - Call (415) 202-5557, get a French proverb
-- Call (952) 314-1592, get π (andrew demo)
 
 ## APIs
 - [App Engine Go Runtime][1]
